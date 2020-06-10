@@ -73,19 +73,10 @@ Let's try to brute-force it with our friend `john`:
 sudo john -format=bcrypt --wordlist=/usr/share/wordlists/rockyou.txt hash.txt
 ```
 
-After a few long minutes we cracked the password! Ah yeah...`spiderman123`...how surprising...
+After a few long minutes we cracked the password! Ah yeah...how surprising...
 
 {{< image src="/img/dailyBugle/jonah.jpg" alt="Hello Friend" position="center" style="border-radius: 8px;" >}}
 
-We have the credentials for the following user:
-
-```text
-id          811
-name        Super User
-email       jonah@tryhackme.com
-username    jonah
-password    spiderman123
-```
 
 ## The super template!
 
